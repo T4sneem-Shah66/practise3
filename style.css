@@ -1,0 +1,76 @@
+/* common start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #172d5c;
+
+}
+/* common end */
+/* header start */
+header{
+    padding: 15px 0;
+    border-bottom: 2px solid #ddd;
+}
+.container{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.logo{
+    float: left;
+    width: 10%;
+    /* border: 1px solid black; */
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    float: right;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #172d5c;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+}
+.menu ul li a:hover{
+    color: #008aff
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/* header end */
+
+
+.list li:nth-child(2) {
+    background: red;
+}
+  
+/* Selects the second li element in a list */
+.list li:first-child {
+    background: lightgreen;
+}
+  
+/* Selects every third element among any group of siblings */
+.list li:last-child {
+    background: yellow;
+}
